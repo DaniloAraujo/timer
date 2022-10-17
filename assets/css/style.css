@@ -1,0 +1,62 @@
+/* body {
+    background-color: black;
+} */
+
+.container {
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+    border: solid 1px black;
+    width: 230px;
+    height: 250px;
+    background-color: black;
+}
+
+h1 {
+    margin-left: 20px;
+    width: 160px;
+    font-size: 2.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background-color: rgb(168, 168, 168);
+    border-radius: 3px;
+}
+
+button {
+    margin: 10px;
+    border: solid 2px rgb(173, 173, 173);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.play {
+    background-image: url(/assets/images/play.png);
+    background-position: center;
+    background-size: cover;
+    height: 52px;
+    width: 52px;
+    border-radius: 50%;
+    background-color: green;
+}
+
+.pause {
+    background-image: url(/assets/images/pause.png);
+    background-position: center;
+    background-size: cover;
+    height: 52px;
+    width: 52px;
+    border-radius: 50%;
+    background-color: gray;
+}
+
+.stop {
+    background-image: url(/assets/images/stop.png);
+    background-position: center;
+    background-size: cover;
+    height: 52px;
+    width: 52px;
+    border-radius: 50%;
+    background-color: red;
+}
